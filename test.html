@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_registr.css">
+</head>
+<body>
+    <form method="post" action="program">
+        <h2>Тест</h2>
+        <p> Вы готовы пройти тест?</p>
+        <p><input type="radio" name="1" value="yes"> Да</p>
+        <p><input type="radio" name="'1" value="no"> Нет</p>
+
+        <p> Ваше имя:</p>  
+        <p><input type='text' maxlength="25" size='25'></p> 
+
+        <p> Ваш возраст:</p>
+        <p><input type='number' value='10' min='10' max='155' step='1'> </p>
+
+        <p> Что такое Python?</p>
+        <p><input type="checkbox" name="question" value="1"> это змея</p>
+        <p><input type="checkbox" name="question" value="2"> язык программирования</p>
+        <p><input type="checkbox" name="question" value="3"> не знаю</p>
+        <a href="www.python.org"> Что такое Python</a>
+
+        <p> Поддерживает ли Python ООП?</p>
+        <p><input type="checkbox" name="question" value="1"> да</p>
+        <p><input type="checkbox" name="question" value="2"> нет</p>
+        <p><input type="checkbox" name="question" value="3"> не знаю</p>
+        <a href="dzen.ru›a/aDLbnTRRzRTAcgeC"> Поддерживает ли Python ООП</a>
+
+        <p> Какие типы данных есть в Python?</p>
+        <p><input type="checkbox" name="question" value="1"> int, float, complex</p>
+        <p><input type="checkbox" name="question" value="2"> str, bool</p>
+        <p><input type="checkbox" name="question" value="3"> list, tuple, dict, set</p>
+        <a href="habr.com›ru/articles/877410/"> Какие типы данных есть в Python</a>
+
+        <p><textarea name="comment"> Ваш отзыв</textarea></p>
+
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>

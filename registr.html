@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_registr.css">
+</head>
+<body>
+    <form method="post" action="program">
+        <h2> Регистрация</h2>
+        <p><b>Ваше имя: </b><input type="text" name='name'></p>
+        <p><b>Ваша фамилия: </b><input type="text" name='endname'></p>
+        <p><b>Ваш пол: </b><input type="radio" name='m'>Мужской <input type="radio" name='f'>Женский</p>
+        <p><b>Откуда вы? </b>
+        <select name='cities'>
+            <option value="Москва">Москва</option>
+            <option value="Питер">Питер</option>
+            <option value="Казань">Казань</option>
+            <option value="Воронеж">Воронеж</option>
+            <option value="Омск">Омск</option>
+            <option value="Екатеренбург">Екатеренбург</option>
+            <option value="Другой город/страна">Другой город/страна</option>
+        </select> </p>
+
+        <p class="border"></p>
+        <p><b>Придумайте пароль: </b></p>
+        <p><input type='text' name='password' placeholder='Пароль'></p>
+        <p><b>Повторно введите пароль:</b></p>
+        <p><input type='text' name='password' placeholder='Пароль'></p>
+        <p><b>Придумайте слово, на случай, если забудете пароль:</b></p>
+        <p><input type='text' name='password' placeholder='Например, кошка'></p>
+        <p class="border"></p>
+
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>

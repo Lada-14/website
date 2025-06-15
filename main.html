@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="center">
+    <h2>Сайт для изучения Python</h2>
+    <h4><b>План:</b></h4>
+    <ol>
+        <li> Ввод и вывод данных</li>
+        <li> Логические выражения и условный оператор</li>
+        <li> Циклы</li>
+        <li> Продолжение</li>
+    </ol>
+
+    <h3>1. Ввод и вывод данных</h3>
+    <h4>1.1 Вывод данных</h4>
+    <p>Для вывода данных на экран используется команда <span class='blue'>print</span>()<br>
+    Внутри круглых скобок пишем, что хотим вывести на экран. Если это текст, то указываем его внутри кавычек. Числа так же могут быть внутри кавычек.</p>
+    <p class="border">Пример:<br>
+    <span class='blue'>print</span>('Hello World!')<br>
+    На экран будет выведено: Hello World!</p>
+
+    <h4>1.2 Ввод данных</h4>
+    <p>Для ввода данных используется команда <span class='blue'>input</span>()</p>
+    <p class="border">Пример:<br>
+    a = <span class="blue">input</span>()<br>
+    <span class='blue'>print</span>(a)</p>
+    <p>В примере мы записываем в переменную а данные, введённые пользователем, и выводим на экран с помощью команды <span class='blue'>print</span>()</p>
+
+    <h3>2. Логические выражения и условный оператор</h3>
+    <h4>2.1 Логические выражения</h4>
+    <p>Логические выражения делятся на простые и составные.</p>
+    <img src="img_1.png">
+    <img src="img_2.png">
+
+    <h4>2.2 Условный оператор</h4>
+    <p>Условный оператор - это команда, выполняющая или не выполняющая действие в зависимости от логического выражения. <br>
+    Для программирования условного оператора используются команды:<br>
+    <span class='blue'>if</span> (если)<br>
+    <span class='blue'>else</span> (иначе)</p>
+    <p class="border">Пример:<br>
+    a = input()<br>
+    <span class='blue'>if</span> a = 0:<br>
+    ....<span class="blue">print</span>('a = 0')<br>
+    <span class='blue'>else</span>:<br>
+    ....<span class='blue'>print</span>('a =',a)<br>
+    (Точки - количество пробелов)</p>
+
+    <h3>3. Циклы</h3>
+    <h4>3.1 Цикл while</h4>
+    <p>Цикл - это команда, выполняющая указанные действия до тех пор, пока логическое выражение является истинным.
+         Он может быть запрограммирован с помощью оператора <span class='blue'>while</span></p>
+    <p class="border">Пример:<br>
+    a = input(Введите 0 для завершения цикла)
+    <span class='blue'>while</span> a != 0:<br>
+    ....<span class='blue'>print</span>(Введите 0 для завершения цикла)<br>
+    ....a = <span class='blue'>input</span>()</p>
+    <p>В примере цикл будет работать до тех пор, пока пользователь не введёт 0</p>
+
+    <h4>3.2 Цикл for</h4>
+    <p>Цикл for - это цикл, перебирающий элементы конечной последовательности</p>
+    <p class="border">Пример 1:<br>
+    <span class='blue'>for</span> элемент<span class='blue'> in</span> последовательность:<br>
+    ....Выполнить действие</p>
+    <p>В примере 1 интерпритатор сам определяет начало, конец и последовательность, счётчик не нужен</p>
+
+    <p class="border">Пример 2:<br>
+    <span class='blue'>for</span> элемент<span class='blue'> in range</span>(диапазон):<br>
+    ....Выполнить действие</p>
+    <p>В примере 2 есть функция <span class='blue'>range</span>(), которая создаёт последовательность чисел в указанном диапазоне</p>
+
+    <p><span class='blue'>break</span> - оператор, досрочно прерывающий цикл</p>
+
+    <h3>4. Продолжение</h3>
+    <a href="functions_and_modules.html">Функции и модули</a> <br>
+    <a href="turtle.html">Черепашка</a> <br>
+    <a href="">.</a>
+    <p> На этом пока-что всё, в дальнейшем информация будет обновляться.</p>
+</body>
+</html

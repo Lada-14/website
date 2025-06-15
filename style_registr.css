@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(240, 240, 255);
+}
+
+p{
+    color:rgb(7, 0, 100);
+    font-size: 30px;
+}
+
+h2{
+    color:rgb(240, 240, 255);
+    background-color: rgb(0, 13, 83);
+    font-size: 50px;
+    padding: 5px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 13, 83);
+    border-radius: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(201, 191, 248);
+}
+.border{
+    color: rgb(0, 44, 139);
+    border: 4px rgb(114, 130, 223) double;
+    padding: 4px;
+    text-align: left;
+}
+
+a{ 
+    font-size: 25px;
+}
